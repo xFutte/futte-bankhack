@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="styles.css" />
+		
+		<!-- FontAwesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Hack</title>
+		<style>
+			
+		</style>
+	</head>
+	<body class="hidden">
+		<div class="container">
+			<div class="overlay hidden"></div>
+			<audio id="gameStageSuccess">
+				<source src="snd/correct.ogg" type="audio/ogg" />
+			</audio>
+			<audio id="gameSuccess">
+				<source src="snd/finish.ogg" type="audio/ogg" />
+			</audio>
+			<audio id="gameStart">
+				<source src="snd/start.ogg" type="audio/ogg" muted />
+			</audio>
+			<audio id="gameFailed">
+				<source src="snd/wrong.ogg" type="audio/ogg" muted />
+			</audio>
+
+			<div class="loading-hack loading-hack-blink">
+				<i class="fa-solid fa-user-secret"></i> <br />
+				<span>Starting hack..</span> <br />
+			</div>
+			<div class="loading-hack loading-hack-override hidden">
+				<i class="fa-solid fa-user-secret"></i> <br />
+				<span>Manual override required - enter combinations!</span>
+			</div>
+			<div class="loading-hack loading-hack-blink hidden stage-2">
+				<i class="fa-solid fa-user-secret"></i> <br />
+				<span>Stage 2</span>
+			</div>
+			<div class="loading-hack loading-hack-blink hidden stage-3">
+				<i class="fa-solid fa-user-secret"></i> <br />
+				<span>Stage 3</span>
+			</div>
+
+			<div class="hack-success hidden">
+				<i class="fa-solid fa-check-circle"></i> <br />
+				<span>Hack completed</span>
+			</div>
+			<div class="hack-failed hidden">
+				<i class="fa-solid fa-triangle-exclamation"></i>
+				<span>Hack failed</span>
+			</div>
+
+			<div class="hack hidden">
+				<div class="hack-overlay"></div>
+			</div>
+
+			<div class="timer"></div>
+		</div>
+	</body>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"
+		integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="hack.js"></script>
+</html>
