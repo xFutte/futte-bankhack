@@ -15,4 +15,4 @@ NoPixel inspired hacking script by xFutte
 
 ### Notes
 
-This is one of my first FiveM scripts, but I think it is pretty decent. Feel free to request improvements or add bug reports.
+This is one of my first FiveM scripts, but I think it is pretty decent. It is out-of-support, but I just wanted to offer it to the community.
