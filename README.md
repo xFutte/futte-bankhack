@@ -1,5 +1,5 @@
-## futte-bankhack
-NoPixel inspired hacking script by xFutte
+## Hacking script
+NoPixel inspired hacking script by xFutte. It is no longer maintained but is still pretty decent.
 
 ### Features
 
@@ -12,7 +12,3 @@ NoPixel inspired hacking script by xFutte
 ![](https://i.imgur.com/04P31BN.png)
 
 *Note: Above screenshots are not from the same stage*
-
-### Notes
-
-This is one of my first FiveM scripts, but I think it is pretty decent. It is out-of-support, but I just wanted to offer it to the community.
