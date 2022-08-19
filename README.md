@@ -1,5 +1,5 @@
 ## Hacking script
-NoPixel inspired hacking script by xFutte. It is no longer maintained but is still pretty good.
+NoPixel inspired hacking script by xFutte. It is no longer in active development, but I'll offer support in **[my Discord server](https://discord.gg/gQrjCcjMaV)**.
 
 ### Features
 
