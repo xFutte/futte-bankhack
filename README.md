@@ -7,6 +7,9 @@ NoPixel inspired hacking script by xFutte. It is no longer in active development
 - Easy to configure amount of time per stage in the game
 
 ### Preview
+
+![image](https://user-images.githubusercontent.com/6727484/185662984-7afd081b-64b4-467e-a25d-240988ecbaab.png)
+
 ![](https://i.imgur.com/j1Ev1lT.png)
 
 ![](https://i.imgur.com/04P31BN.png)
