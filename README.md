@@ -1,5 +1,5 @@
 ## futte-bankhack
-NoPixel inspired hacking script for banks by xFutte
+NoPixel inspired hacking script by xFutte
 
 ### Features
 
