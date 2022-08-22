@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 client_scripts {
-  'fleeca_hack.lua',
+  'futte-bankhack.lua',
 }
 
 files {

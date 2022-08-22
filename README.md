@@ -18,11 +18,11 @@ NoPixel inspired hacking script by xFutte. I'll offer support in **[my Discord s
 
 ## Setup for [qb-bankrobbery](https://github.com/qbcore-framework/qb-bankrobbery)
 
-In the qb-bankrobbery resource, navigate to `'client/fleeca.lua'` and insert `TriggerEvent('fleeca_hack:hide')` inside the `OnHackSucces` function. This should end up looking as follows:
+In the qb-bankrobbery resource, navigate to `'client/fleeca.lua'` and insert `TriggerEvent('futte-bankhack:hide')` inside the `OnHackSucces` function. This should end up looking as follows:
 
 ```lua
 local function OnHackDone(success)
-  TriggerEvent('fleeca_hack:hide')
+  TriggerEvent('futte-bankhack:hide')
   Config.OnHackDone(success, closestBank)
 end
 ```
@@ -33,8 +33,8 @@ TriggerEvent("mhacking:start", math.random(6, 7), math.random(12, 15), OnHackDon
 ``` 
 with 
 ```lua
-TriggerEvent("fleeca_hack:show")
-TriggerEvent("fleeca_hack:start", math.random(6, 7), math.random(12, 15), OnHackDone)
+TriggerEvent("futte-bankhack:show")
+TriggerEvent("futte-bankhack:start", math.random(6, 7), math.random(12, 15), OnHackDone)
 ``` 
 
 

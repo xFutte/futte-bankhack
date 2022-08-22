@@ -265,7 +265,7 @@ function stageCompleted(success) {
 			// Send NUI callback
 			setTimeout(function () {
 				$.post(
-					'https://fleeca_hack/callback',
+					'https://futte-bankhack/callback',
 					JSON.stringify({
 						success: true,
 					})
@@ -304,7 +304,7 @@ function stageCompleted(success) {
 
 		setTimeout(function () {
 			$.post(
-				'https://fleeca_hack/callback',
+				'https://futte-bankhack/callback',
 				JSON.stringify({
 					success: false,
 				})

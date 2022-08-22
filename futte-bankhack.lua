@@ -1,11 +1,11 @@
-AddEventHandler('fleeca_hack:show', function()
+AddEventHandler('futte-bankhack:show', function()
     nuiMsg = {}
 	nuiMsg.show = true
 	SendNUIMessage(nuiMsg)
 	SetNuiFocus(true, true)
 end)
 
-AddEventHandler('fleeca_hack:hide', function()
+AddEventHandler('futte-bankhack:hide', function()
     nuiMsg = {}
 	nuiMsg.show = false
 	SendNUIMessage(nuiMsg)
@@ -13,7 +13,7 @@ AddEventHandler('fleeca_hack:hide', function()
 	showHelp = false
 end)
 
-AddEventHandler('fleeca_hack:start', function(solutionlength, duration, callback)
+AddEventHandler('futte-bankhack:start', function(solutionlength, duration, callback)
     hackCallback = callback
 	nuiMsg = {}
 	nuiMsg.s = solutionlength
@@ -23,7 +23,7 @@ AddEventHandler('fleeca_hack:start', function(solutionlength, duration, callback
 	showHelp = true
 end)
 
-AddEventHandler('fleeca_hack:setmessage', function(msg)
+AddEventHandler('futte-bankhack:setmessage', function(msg)
     nuiMsg = {}
 	nuiMsg.displayMsg = msg
 	SendNUIMessage(nuiMsg)
