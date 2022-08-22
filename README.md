@@ -1,5 +1,5 @@
 ## Hacking script
-NoPixel inspired hacking script by xFutte. I'll offer support in **[my Discord server](https://discord.gg/gQrjCcjMaV)**.
+NoPixel inspired hacking script by xFutte. I'll offer support in **[my Discord server](https://discord.gg/R7MMSsZJ8r)**.
 
 ### Features
 
